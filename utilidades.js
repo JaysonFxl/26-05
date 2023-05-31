@@ -1,4 +1,4 @@
-                                                       function limpiar() {
+function limpiar() {
     document.querySelectorAll('.form-control').forEach(item => {
         item.value = ''
         document.getElementById('e' + item.id).innerHTML = ''
